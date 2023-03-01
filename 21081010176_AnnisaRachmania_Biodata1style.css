@@ -1,0 +1,83 @@
+*,
+html{
+    padding: 0;
+    margin: 0;
+}
+
+.div-navbar{
+    background-color: rgb(86, 0, 86); 
+    color:beige; 
+    height: 10vh; 
+    width: 100%; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center
+}
+
+.title-navbar{
+    padding: 10px; margin: 8px; 
+}
+
+.menu-navbar{
+    display: flex;  
+    align-items: center; 
+    justify-content: right;
+}
+
+.li-menu{
+    list-style-type: none; 
+    padding: 10px; margin: 8px; 
+    font-weight: 600;
+}
+
+.li-menu:hover{
+    background-color: rgba(200, 151, 168, 0.911);
+    transition: 0.25s ease-in-out;
+    transition-delay: 0.1s;
+    border-radius: 8px;
+}
+
+.div-content{
+    background-color: lavenderblush;
+    height: 80vh; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+}
+
+.a-menu{
+    color: beige; text-decoration: none;
+}
+
+.div-image{
+    width: 255px; 
+    height: 255px; 
+    margin-right: 25px;
+}
+
+.div-description{
+    width: 450px;
+    height: 260px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    border-radius: 5%;
+    margin-left: 25px;
+}
+
+.table-description{
+    width: 420px;
+    padding: 5;
+    margin: 6;
+    border: 3;
+}
+
+.div-footer{
+    background-color:  rgb(86, 0, 86); 
+    height: 10vh; 
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}

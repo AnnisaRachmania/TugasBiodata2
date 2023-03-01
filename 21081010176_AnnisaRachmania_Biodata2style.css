@@ -1,0 +1,150 @@
+*,
+html{
+    padding: 0;
+    margin: 0;
+}
+
+.div-navbar{
+    background-color: rgb(86, 0, 86); 
+    color:beige; 
+    height: 10vh; 
+    width: 100%; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center
+}
+
+.title-navbar{
+    padding: 10px; margin: 8px; 
+}
+
+.menu-navbar{
+    display: flex;  
+    align-items: center; 
+    justify-content: right;
+}
+
+.li-menu{
+    list-style-type: none; 
+    padding: 10px; margin: 8px; 
+    font-weight: 600;
+}
+
+.a-menu{
+    color: beige; text-decoration: none;
+}
+
+.li-menu:hover{
+    background-color: rgba(200, 151, 168, 0.911);
+    transition: 0.25s ease-in-out;
+    transition-delay: 0.1s;
+    border-radius: 8px;
+}
+
+.div-content{
+    height: 900px; width: 1000px;
+    background-color:rgba(37, 2, 37, 0.977) ;
+    margin: 20px ;
+    border-radius: 5%;
+    border-style: inset;
+    border-color:black;
+    margin-left: 130px;
+    margin-right: 100px;
+
+}
+
+.title-content{
+    height: 70px; width: 200px;
+    background-color: rgb(246, 224, 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    border-style:outset;
+}
+
+.div-img-content{
+    width: 270px; height: 330px;
+    background-color: floralwhite;
+    border-radius: 10%;
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-content{
+    width:250px; height:310px; 
+    border-radius: 10%;
+}
+
+.div-datadiri{
+    width: 440px; height:320px;
+    text-align: justify;
+    margin: 10px;
+    background-color: rgb(226, 171, 226);
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 2px;
+    margin-left: 0px;
+    font-size: 17.5px;
+    
+}
+
+.div-content-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-aboutme{
+    width: 290px; height: 230px;
+    border-radius: 10%;
+    background-color: rgb(246, 180, 226);
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    font-size: 17px;
+    word-spacing: 2px;
+    margin: 10px;
+    margin-right: 100px;
+    padding: 10px;
+}
+
+.div-riwayatpendidikan{
+    width: 430px; height:190px;
+    text-align: justify;
+    margin: 10px;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 2px;
+    margin-left: 80px;
+    font-size: 17.5px;
+    background-color: rgb(194, 145, 139);
+    margin: 13px;
+}
+
+.div-title{
+    display: flex; 
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center
+}
+
+.div-footer{
+    background-color:  rgb(86, 0, 86); 
+    height: 10vh; 
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
